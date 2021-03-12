@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Gosia1</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="popup_gosia1.css">
+</head>
+<body>
+    <section class="page">
+        <nav>
+            <div class="logo"><i class="fas fa-stethoscope"></i><span> medi</span>line.pl</div>
+            <ul>
+                <li>O nas</li>
+                <li>Kontakt</li>
+                <li>Zaloguj/Zerejestruj się</li>
+            </ul>
+        </nav>
+        <h1>Specjalistyczne porady lekarskie online</h1>
+        <button class="button">
+            Umów wizytę
+        </button>
+        <div class="picture"></div>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, aliquam? Modi veritatis numquam, esse aspernatur placeat, ipsa iure minus unde possimus officia et ex, aliquid fugiat consequuntur dolores deserunt amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repudiandae cum saepe, blanditiis commodi nisi at eligendi nihil odit consequatur quod quam dolorum quo labore laborum sunt placeat nam praesentium.</h2>
+    </section>
+    <secton class="modal-wrap">
+        <div class="modal">
+            <div class="form1">
+                <label for="fname">imię</label>
+                <input type="text" id="fname">
+                <label for="sname">nazwisko</label>
+                <input type="text" id="sname">
+                <label for="phone">telefon</label>
+                <input type="text" id="phone">
+                <label for="mail">e-mail</label>
+                <input type="email" id="mail">
+                <label for="category">specjalizacja</label>
+                <select id="category">
+                    <option value="" disabled selected>wybierz specjalistę...</option>
+                    <option value="1">internista</option>
+                    <option value="2">pediatra</option>
+                    <option value="3">ginekolog</option>
+                    <option value="4">psychiatra</option>
+                    <option value="5">kardiolog</option>
+                    <option value="6">dermatolog</option>
+                    <option value="7">laryngolog</option>
+                </select>
+            </div>
+            <div class="form2">
+                <label for="question">treść pytania</label>
+                <textarea name="question" ></textarea>
+                <div class="send button">wyślij formularz</div>
+            </div>
+            <div class="x button"><i class="fas fa-times"></i></div>
+        </div>
+
+    </secton>
+
+    <script src="popup_gosia1.js"></script>
+</body>
+</html>
